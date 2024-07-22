@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    color: #212529;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #212529;
+    font-size: 19px;
+    margin-left: 20px;
+}
+
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing-header {
+    margin-bottom: 30px;
+}
+
+.pricing-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.pricing-header p {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: left;
+}
+
+.planName{
+    display: flex;
+    justify-content: center;
+}
+
+.plan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.plan .price {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 16px;
+    color: #6c757d;
+    margin: 5px 0;
+}
+
+.plan .button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 7px 15px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
